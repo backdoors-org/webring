@@ -10,5 +10,5 @@ A student developer community connecting builders across all four VIT campuses t
 
 <p align="center">
 Want to join the webring?<br>
-<a href="https://your-form-link.com">Fill out the form</a>
+<a href="https://tally.so/r/Xxga6V">Fill out the form</a>
 </p>
