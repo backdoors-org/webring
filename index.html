@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Community Webring</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="hero-image">
+            <img src="assets/favicon3.jpeg" alt="Backdoor Community Banner">
+        </div>
+        <header>
+            <div class="logo">
+                
+                <!-- <span class="icon"></span> -->
+                    <h1>
+                    backdoor
+                    <a
+                        href="https://discord.gg/jfd3RYwnvg"
+                        style="font-size: 16px; color: #B58CFF;"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        (join us?)
+                    </a>
+                    </h1>            </div>
+            <p class="subtitle">developers from all four VIT campuses, connected through the open web.</p>
+        </header>
+
+        <hr class="divider">
+
+        <section class="about-section">
+            <div class="about-block">
+                <h2>what's this?</h2>
+                
+                <p>a student-run community of developers from VIT Vellore, Chennai, AP, and Bhopal. We build projects, contribute to open source, write blogs, and maintain our own corners of the internet.
+                    This webring links our personal websites together so you can discover interesting people and the things they're building.
+                </p>
+                <div class="webring-nav">
+                    <span>try it out:</span>
+                    <a href="#" id="btn-prev" class="ring-link">← prev</a>
+                    <a href="#" id="btn-random" class="ring-link">⚄ random</a>
+                    <a href="#" id="btn-next" class="ring-link">next →</a>
+                </div>
+            </div>
+<!-- 
+            <div class="about-block">
+                <h2>why do this?</h2>
+                <p>Short answer: owning your digital land is a worthwhile goal. Less short answer: we believe in the open web, independent creation, and breaking away from algorithmic feeds. Read our <a href="#" class="text-link">manifesto</a>.</p>
+            </div> -->
+        </section>
+
+        <section class="members-section">
+            <h2>members</h2>
+            
+            <div class="members-grid" id="members-grid">
+                </div>
+        </section>
+    </div>
+        <script>
+        async function loadWebringMembers() {
+            try {
+            const response = await fetch('members.json');
+            const members = await response.json();
+            
+            const grid = document.getElementById('members-grid');
+            grid.innerHTML = ''; 
+            
+            members.forEach(member => {
+                const displayUrl = member.url.replace(/^https?:\/\//, '');
+                const githubUrl = `https://github.com/${member.github}`;
+                const avatarUrl = `${githubUrl}.png?size=64`; 
+                
+                const cardHTML = `
+                <div class="member-card">
+                    <div class="member-header">
+                        <img src="${avatarUrl}" alt="${member.name}'s avatar" class="avatar" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22 fill=%22%23222%22><rect width=%22100%22 height=%22100%22/></svg>'">
+                        
+                        <div class="member-info">
+                            <a href="${member.url}" target="_blank" class="member-name">
+                                ${member.name} <span class="external-icon">↗</span>
+                            </a>
+                            <span class="member-url">${displayUrl}</span>
+                        </div>
+                    </div>
+                    
+                    <p class="member-desc">${member.desc}</p>
+                </div>
+                `;
+                
+                grid.innerHTML += cardHTML;
+            });
+
+
+            const btnPrev = document.getElementById('btn-prev');
+            const btnRandom = document.getElementById('btn-random');
+            const btnNext = document.getElementById('btn-next');
+
+            let currentIndex = 0;
+
+            
+
+
+            btnNext.addEventListener('click', (e) => {
+                e.preventDefault(); 
+                currentIndex = (currentIndex + 1) % members.length;
+                window.location.href = members[currentIndex].url;
+            });
+
+            btnPrev.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentIndex = (currentIndex - 1 + members.length) % members.length;
+                window.location.href = members[currentIndex].url;
+            });
+
+            btnRandom.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                const validMembers = members.filter(member => {
+                    return !window.location.href.includes(member.url);
+                });
+
+                const pool = validMembers.length > 0 ? validMembers : members;
+
+                const randomIndex = Math.floor(Math.random() * pool.length);
+                window.location.href = pool[randomIndex].url;
+            });
+            
+            } catch (error) {
+            console.error("Error loading webring members:", error);
+            document.getElementById('members-grid').innerHTML = '<p class="empty">Failed to load members.</p>';
+            }
+        }
+
+        loadWebringMembers();
+        </script>
+
+</body>
+</html>
