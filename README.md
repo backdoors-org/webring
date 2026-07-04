@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/favicon3.jpeg" alt="Backdoor Banner" width="100%" />
+  <img src="./assets/cats-camping-camping.gif" alt="Backdoor Banner" width="100%" />
 </p>
 
 <!-- <h1 align="center">backdoor</h1> -->
