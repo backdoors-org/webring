@@ -140,8 +140,8 @@ header {
 
 .members-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 /* Member Cards */
@@ -224,20 +224,20 @@ header {
     color: var(--text-primary);
 }
 
-/* --- Hero Image --- */
+
 .hero-image {
     width: 50%;
-    margin-top: 1.5rem;   /* Space above the image */
-    margin-bottom: 2rem;  /* Space below the image */
+    margin-top: 1.5rem;  
+    margin-bottom: 2rem; 
 }
 
 .hero-image img {
     width: 100%;
     height: auto;
-    max-height: 250px; /* Prevents the image from taking up the entire screen */
-    object-fit: cover; /* Crops the image nicely to fit the height without squishing it */
-    border-radius: 8px; /* Matches the rounded corners of your member cards */
-    border: 1px solid var(--border-color); /* Adds the subtle dark border */
+    max-height: 250px; 
+    object-fit: cover;
+    border-radius: 8px; 
+    border: 1px solid var(--border-color); 
     display: block;
 }
 
