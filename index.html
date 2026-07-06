@@ -45,17 +45,20 @@
             <div class="about-block">
                 <h2>what's this?</h2>
                 
-                <p>a student-run community of developers from VIT Vellore, Chennai, AP, and Bhopal. We build projects, contribute to open source, write blogs, and maintain our own corners of the internet.
-                    This webring links our personal websites together so you can discover interesting people and the things they're building.
-                </p>
+                <p>a student-run community of developers from VIT Vellore, Chennai, AP, and Bhopal. We build projects, contribute to open source, write blogs, and maintain our own corners of the internet. This webring links our personal websites together so you can discover interesting people and the things they're building.</p>
                 <div class="webring-nav">
                     <span>try it out:</span>
-                    <a href="#" id="btn-prev" class="ring-link">← prev</a>
-                    <a href="#" id="btn-random" class="ring-link">⚄ random</a>
-                    <a href="#" id="btn-next" class="ring-link">next →</a>
+                    <a href="#" id="btn-prev" class="ring-link" aria-label="Go to the previous site in the webring">← prev</a>
+                    <a href="#" id="btn-random" class="ring-link" aria-label="Open a random site in the webring">⚄ random</a>
+                    <a href="#" id="btn-next" class="ring-link" aria-label="Go to the next site in the webring">next →</a>
                 </div>
             </div>
 
+            <div class="info-card">
+                <h3>how it works</h3>
+                <p>Each site points to the next, so the ring feels more like wandering through a neighborhood than scrolling a feed.</p>
+                <a href="about.html" class="text-link">Read more about the webring</a>
+            </div>
         </section>
 
         <section class="members-section">
@@ -65,6 +68,11 @@
                 </div>
         </section>
     </div>
+
+    <footer class="site-footer">
+        <p>built for curious people, shared links, and small corners of the web.</p>
+    </footer>
+
         <script>
         async function loadWebringMembers() {
             try {
