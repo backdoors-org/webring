@@ -83,10 +83,9 @@ header {
 
 
 .about-section {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1.5rem;
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
     margin-bottom: 4rem;
 }
 
