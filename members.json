@@ -64,6 +64,22 @@
     "desc": ""
   },
   {
+    "id": "ishaan",
+    "name": "Ishaan Jindal",
+    "url": "https://ishaanjindal.tech",
+    "git_acc": "https://github.com/ishaan-jindal",
+    "batch": "vitc cse 24-28",
+    "desc": ""
+  },
+  {
+    "id": "karthik",
+    "name": "Karthik Ramanathan Lakshmanan",
+    "url": "https://axisspri.me",
+    "git_acc": "https://github.com/karthik20066002",
+    "batch": "vitc cse 24-28",
+    "desc": ""
+  },
+  {
     "id": "ankababu",
     "name": "Ankababu Yadav",
     "url": "https://ankababu.me",
@@ -77,6 +93,14 @@
     "url": "https://ybg.neocities.org/",
     "git_acc": "https://github.com/RatEater99",
     "batch": "vitap cse 26-30",
+    "desc": ""
+  },
+  {
+    "id": "404salad",
+    "name": "404salad",
+    "url": "https://404salad.com",
+    "git_acc": "https://github.com/404salad",
+    "batch": "vitc cse 22-26",
     "desc": ""
   },
   {
