@@ -48,6 +48,14 @@
     "desc": "Human, Alive,Not dead"
   },
   {
+    "id": "fexa",
+    "name": "Gunit",
+    "url": "https://pwnhub.in",
+    "git_acc": "https://github.com/Fexaop",
+    "batch": "vitc cse robotics 25-29",
+    "desc": "Human, Alive,Not dead"
+  },
+  {
     "id": "ishaan",
     "name": "Ishaan Jindal",
     "url": "https://ishaanjindal.tech",
