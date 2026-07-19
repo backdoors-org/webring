@@ -144,6 +144,14 @@
     "desc": ""
   },
   {
+    "id": "sockyeh",
+    "name": "Sahran",
+    "url": "https://sockyeh.dev",
+    "git_acc": "https://github.com/sockyeh",
+    "batch": "vitc cse 25-29",
+    "desc": "backend dev, \"photographer\""
+  },
+  {
     "id": "tanishq",
     "name": "tanishq srivastava",
     "url": "https://tanishq.works",
