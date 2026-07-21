@@ -7,7 +7,7 @@
     "batch": "vitc cse 22-26",
     "desc": ""
   },
-    {
+  {
     "id": "lugvitc",
     "name": "Linux User Group, VIT Chennai",
     "url": "https://blog.lugvitc.tech",
@@ -158,5 +158,13 @@
     "git_acc": "https://github.com/RatEater99",
     "batch": "vitap cse 26-30",
     "desc": ""
+  },
+  {
+    "id": "fexa",
+    "name": "Gunit",
+    "url": "https://pwnhub.in",
+    "git_acc": "https://github.com/Fexaop",
+    "batch": "vitc cse robotics 25-29",
+    "desc": "Human, Alive,Not dead"
   }
 ]
