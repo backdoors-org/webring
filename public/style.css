@@ -166,6 +166,15 @@ header {
 .members-section h2 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.member-count {
+    font-size: 1.1rem;
+    color: var(--accent);
+    font-weight: 500;
 }
 
 .members-grid {
