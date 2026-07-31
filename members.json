@@ -166,5 +166,13 @@
     "git_acc": "https://codeberg.org/derpitron",
     "batch": "vitc ecm 24-28",
     "desc": "Broad-edge calligraphy, programming, sysadministration, and polemics"
+  },
+  {
+    "id": "kuku",
+    "name": "kuku",
+    "url": "https://kukudukuuuu.space",
+    "git_acc": "https://github.com/Kukudukuuuu",
+    "batch": "vitap 26-28",
+    "desc": "kitty"
   }
 ]
