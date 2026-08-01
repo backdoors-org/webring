@@ -32,6 +32,14 @@
     "desc": ""
   },
   {
+    "id": "karthik",
+    "name": "Karthik Ramanathan Lakshmanan",
+    "url": "https://axisspri.me",
+    "git_acc": "https://github.com/karthik20066002",
+    "batch": "vitc cse 24-28",
+    "desc": ""
+  },
+  {
     "id": "shreyas",
     "name": "shreyas",
     "url": "https://zhreyu.github.io/",
@@ -86,14 +94,6 @@
     "git_acc": "https://github.com/JCKawin",
     "batch": "vitc cse robotics 25-29",
     "desc": "Game Development, Embedded Programming, Robotics"
-  },
-  {
-    "id": "karthik",
-    "name": "Karthik Ramanathan Lakshmanan",
-    "url": "https://axisspri.me",
-    "git_acc": "https://github.com/karthik20066002",
-    "batch": "vitc cse 24-28",
-    "desc": ""
   },
   {
     "id": "libremelon",
@@ -166,5 +166,13 @@
     "git_acc": "https://codeberg.org/derpitron",
     "batch": "vitc ecm 24-28",
     "desc": "Broad-edge calligraphy, programming, sysadministration, and polemics"
+  }
+  {
+    "id": "Kuku",
+    "name": "Kuku",
+    "url": "https://kukudukuuuu.space/",
+    "git_acc": "https://github.com/Kukudukuuuu",
+    "batch": "vitap bsc 26-29",
+    "desc": "-"
   }
 ]
