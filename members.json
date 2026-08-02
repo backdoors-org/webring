@@ -174,5 +174,13 @@
     "git_acc": "https://github.com/Kukudukuuuu",
     "batch": "vitap bsc 26-29",
     "desc": "-"
+  },
+  {
+    "id": "kryptonkk",
+    "name": "Krypton KK",
+    "url": "https://kryptonkk.co.in",
+    "git_acc": "https://git.kryptonkk.co.in/Krypton-KK",
+    "batch": "vitc ecm 24-28",
+    "desc": "Backend Developer with an interest in AI and Embedded Systems"
   }
 ]
