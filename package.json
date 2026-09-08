@@ -4,6 +4,7 @@
   "description": "<p align=\"center\">   <img src=\"./assets/cats-camping-camping.gif\" alt=\"Backdoor Banner\" width=\"100%\" /> </p>",
   "main": "server.js",
   "scripts": {
+    "build": "node --check server.js && node scripts/validate-members.mjs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },

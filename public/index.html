@@ -83,7 +83,10 @@
         <script>
         async function loadWebringMembers() {
             try {
-            const response = await fetch('members.json');
+            const response = await fetch('/members.json');
+            if (!response.ok) {
+                throw new Error(`members request failed with ${response.status}`);
+            }
             const members = await response.json();
             
             const memberCountEl = document.getElementById('member-count');
