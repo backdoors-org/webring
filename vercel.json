@@ -1,22 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "functions": {
     "server.js": {
       "includeFiles": "members.json"
     }
-  },
-  "rewrites": [
-    {
-      "source": "/redirect",
-      "destination": "/server.js"
-    },
-    {
-      "source": "/random",
-      "destination": "/server.js"
-    },
-    {
-      "source": "/members.json",
-      "destination": "/server.js"
-    }
-  ]
+  }
 }
