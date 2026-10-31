@@ -10,13 +10,7 @@ A student developer community connecting builders across all four VIT campuses t
 
 <p align="center">
 Want to join the webring?<br>
-<a href="https://tally.so/r/Xxga6V">Fill out the form</a> 
-  <span>|</span>
-<!-- <a href="https://discord.gg/jfd3RYwnvg">Discord</a>  -->
-
-<a href="https://discord.gg/jfd3RYwnvg">
-  <img src="https://img.shields.io/badge/Join%20the%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-</a>
+<a href="https://webring-vit.vercel.app/join">Take a look</a> 
 
 </p>
 
