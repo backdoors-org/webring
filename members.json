@@ -72,6 +72,22 @@
     "desc": ""
   },
   {
+    "id": "shamant",
+    "name": "Shamant Marathe",
+    "url": "https://i-m-sham.github.io",
+    "git_acc": "https://github.com/i-m-sham",
+    "batch": "vitc cse 24-28",
+    "desc": ""
+  }, 
+  {
+    "id": "danny",
+    "name": "danny",
+    "url": "https://dev.danny.co.in",
+    "git_acc": "https://github.com/itsdannydev",
+    "batch": "vitap cse 24-28",
+    "desc": ""
+  },
+  {
     "id": "ashwin",
     "name": "Ashwin Dandotiya",
     "url": "https://fyreportfolio.lovable.app/",
