@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Backdoor</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" href="/image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css">
+</head>
+<body>
+    <main class="text-page">
+        <header class="text-page-header">
+            <a class="text-page-back" href="/">&larr; back home</a>
+            <h1 class="text-page-title">how to join us</h1>
+        </header>
+
+        <section class="join-content">
+            <ol>
+                <li>Make sure your website includes a way to contact you. If you write a blog, please provide an RSS feed so others can follow your posts.</li>
+                <li>Either <a class="text-link" href="mailto:manthanawgan@gmail.com">email</a> us your name, desired ID, and website URL, or <a class="text-link" href="https://github.com/backdoors-org/webring">open a pull request</a> adding yourself to <a class="text-link" href="https://github.com/backdoors-org/webring/blob/main/members.json">members.json</a>. We will review your submission and add you as soon as possible.</li>
+                <li>Once accepted, add the webring links to your website:
+                    <pre><code class="language-html">&lt;div&gt;
+    &lt;a href="https://webring-vit.vercel.app"&gt;backdoor&lt;/a&gt;
+    &lt;a href="https://webring-vit.vercel.app/redirect?from=your-id&amp;amp;dir=prev"&gt;&amp;larr; prev&lt;/a&gt;
+    &lt;a href="https://webring-vit.vercel.app/random"&gt;&amp;#9851; random&lt;/a&gt;
+    &lt;a href="https://webring-vit.vercel.app/redirect?from=your-id&amp;amp;dir=next"&gt;next &amp;rarr;&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+                </li>
+                <li>See you around the ring. Don't forget to explore your neighbours!</li>
+            </ol>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

@@ -29,6 +29,14 @@ app.get('/members.json', (req, res) => {
   res.type('json').send(fs.readFileSync(MEMBERS_PATH, 'utf8'));
 });
 
+app.get('/about', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'about.html'));
+});
+
+app.get('/join', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'join.html'));
+});
+
 app.get('/redirect', (req, res) => {
   const members = getSanitizedMembers();
   const { from, dir } = req.query;

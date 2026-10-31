@@ -5,5 +5,15 @@
     "server.js": {
       "includeFiles": "members.json"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/join",
+      "destination": "/join.html"
+    }
+  ]
 }
