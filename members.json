@@ -216,6 +216,14 @@
     "desc": "musician who plays the computer"
   },
   {
+    "id": "manal",
+    "name": "Manal Khan",
+    "url": "https://icantwrite.vercel.app",
+    "git_acc": "https://github.com/manxldoescode",
+    "batch": "vitb cse 24-28",
+    "desc": ""
+  },
+  {
     "id": "kryptonkk",
     "name": "Krypton KK",
     "url": "https://kryptonkk.co.in",
