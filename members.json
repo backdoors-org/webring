@@ -230,5 +230,13 @@
     "git_acc": "https://git.kryptonkk.co.in/Krypton-KK",
     "batch": "vitc ecm 24-28",
     "desc": "Backend Developer with an interest in AI and Embedded Systems"
+  },
+  {
+    "id": "nzec",
+    "name": "Aditya Dutt",
+    "url": "https://nzec.sh/",
+    "git_acc": "https://github.com/nzec",
+    "batch": "vitc cse 21-25",
+    "desc": ""
   }
 ]
