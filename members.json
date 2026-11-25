@@ -230,5 +230,14 @@
     "git_acc": "https://git.kryptonkk.co.in/Krypton-KK",
     "batch": "vitc ecm 24-28",
     "desc": "Backend Developer with an interest in AI and Embedded Systems"
+  },
+  {
+    "id": "lavan8t",
+    "name": "lavan",
+    "url": "https://lavan8t.xyz",
+    "git_acc": "https://github.com/lavan8t",
+    "batch": "vitv cse 24-28",
+    "desc": "",
+    "favicon": "https://lavan8t.xyz/favicon.ico"
   }
 ]
